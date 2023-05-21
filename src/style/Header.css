@@ -1,0 +1,102 @@
+.shopping-cart {
+  color: rgb(159, 159, 159);
+}
+
+.back {
+  z-index: 100;
+  color: rgb(159, 159, 159);
+}
+
+.navbarHeader {
+  display: flex;
+  flex-direction: row;
+}
+
+.cart {
+  font-size: 25px;
+}
+
+.headerText,
+.number {
+  text-decoration: none;
+  border: none;
+}
+
+.fa-shopping-cart,
+.number {
+  color: rgb(159, 159, 159);
+}
+
+.narbar-icons {
+  padding: 0px;
+}
+
+.overlay {
+  position: fixed;
+  z-index: 998;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.model {
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.model h4 {
+  margin: 15px;
+}
+
+.model div {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.dangNhap{
+  margin-left: 10px;
+  width: 150px;
+}
+
+.matKhau{
+  margin-left: 48px;
+  width: 150px;
+}
+
+.shopping-cart {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.number.mu {
+  position: absolute;
+  top: -2px;
+  right: -3px;
+  background-color: rgb(172, 35, 35);
+  color: white;
+  font-size: 10px;
+  padding: 2px 6px;
+  border-radius: 50%;
+}
+
+
+.form-inline {
+  display: inline;
+}
+
+.buttonBackLog{
+display: flex;
+flex-direction: row;
+}
+
+.loginout{
+  padding: 0;
+  margin: auto;
+}
